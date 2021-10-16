@@ -1,0 +1,35 @@
+# This workflow will do a clean install of node dependencies, build the source code.
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+      - name: Generate your content
+        uses: actions/setup-node@v2
+          with:
+            node-version: 14.x
+            cache: 'yarn'
+        - run: yarn install
+        - run: yarn build
+      - name: Publish public folder to GitHub Pages
+        # To understand how this works: https://github.com/marketplace/actions/github-pages-overwriter 
+        uses: rayluo/github-pages-overwriter@v1.2
+        with:
+          # Optional. Default value "." means the root directory of your project will be published.
+          # You can use whatever directory your project uses, for example "wwwroot".
+          # Such a directory does *not* have to already exist in your repo,
+          # it could be an output directory created dynamically by your static website builder.
+          source-directory: ./public
+          # Optional. Default value "gh_pages".
+          # It specifies the temporary branch which hosts the static website.
+          # Each build will OVERWRITE this branch.
+          target-branch: gh_pages
