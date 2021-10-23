@@ -1,10 +1,8 @@
-# shoutout-generator-frontend
-
-A web-based shoutout generator for SheSharp Hackathon 2021
+# shoutout-generator-front
 
 A web-based shoutout generator for SheSharp Hackathon Oct 2021 - Frontend
 
-This project was built as part of a hackathon (Oct 2021), held by the amazing SheSharp community and Troopl.nl: https://github.com/shesharpnl
+This project was built as part of a hackathon held by the amazing SheSharp community and Troopl.nl: https://github.com/shesharpnl
 
 ## Get your own copy
 
@@ -29,4 +27,4 @@ If you want to use this API with the corresponding frontend, please see the READ
 
 ## Resources Used
 
-- Built with lots of puppy cuddles 🐶 and ❤️ using Reactjs.
+- Built with lots of puppy cuddles🐶 and ❤️ using React.
