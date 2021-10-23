@@ -27,4 +27,4 @@ If you want to use this API with the corresponding frontend, please see the READ
 
 ## Resources Used
 
-- Built with lots of puppy cuddles🐶 and ❤️ using React.
+- Built with lots of puppy cuddles 🐶 and ❤️ using Reactjs.
