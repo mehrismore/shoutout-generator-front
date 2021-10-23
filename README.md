@@ -2,9 +2,7 @@
 
 A web-based shoutout generator for SheSharp Hackathon Oct 2021 - Frontend
 
-For the backend, see the repo here: https://github.com/Meganmccarty/shoutout-generator-backend
-
-This project was built as part of a hackathon held by the amazing SheSharp community and Troopl.nl: https://github.com/shesharpnl
+This project was built as part of a hackathon (Oct 2021), held by the amazing SheSharp community and Troopl.nl: https://github.com/shesharpnl
 
 ## Get your own copy
 
