@@ -2,6 +2,9 @@
 
 A web-based shoutout generator for SheSharp Hackathon Oct 2021 - Frontend
 
+For the backend, see the repo here: https://github.com/Meganmccarty/shoutout-generator-backend
+
+
 This project was built as part of a hackathon held by the amazing SheSharp community and Troopl.nl: https://github.com/shesharpnl
 
 ## Get your own copy
@@ -27,4 +30,4 @@ If you want to use this API with the corresponding frontend, please see the READ
 
 ## Resources Used
 
-- Built with lots of puppy cuddles🐶 and ❤️ using React.
+- Built with lots of ❤️ and puppy cuddles🐶 using React.

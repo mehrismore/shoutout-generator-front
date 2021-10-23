@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-// import { Todo } from "../components/Todo";
 
 export const Home = () => {
   const [quote, setQuote] = useState({});
