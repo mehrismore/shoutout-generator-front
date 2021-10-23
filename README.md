@@ -1,4 +1,4 @@
-# Shoutout generator-Front
+# shoutout-generator-Frontend
 
 A web-based shoutout generator for SheSharp Hackathon 2021
 
