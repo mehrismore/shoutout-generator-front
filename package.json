@@ -12,6 +12,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://mehrbeniss.github.io/shoutout-generator-front/",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
