@@ -5,7 +5,7 @@ export const Home = () => {
   const [quote, setQuote] = useState({});
 
   const fetchQuote = () => {
-    fetch("http://localhost:4000/random-quote")
+    fetch("https://shoutoutgenerator.herokuapp.com/random-quote")
       .then((res) => res.json())
       .then((data) => setQuote(data));
   };
@@ -22,7 +22,9 @@ export const Home = () => {
   console.log(quote.author);
   return (
     <div className="container mx-auto m-20 flex flex-col items-center">
-      <div className="text-indigo-900 text-lg font-medium">She# + Troopl Hackathon 2021</div>
+      <div className="text-indigo-900 text-lg font-medium">
+        She# + Troopl Hackathon 2021
+      </div>
       {displayQuote()}
       <div className="flex flex-col items-center text-lg text-purple-700 text-9xl font-extrabold mt-28">
         Shoutout to you!
@@ -45,8 +47,8 @@ export const Home = () => {
           focus:outline-none
           focus:ring-2
           focus:ring-offset-2
-          focus:ring-indigo-400
-          onClick={fetchQuote}"
+          focus:ring-indigo-400"
+          onClick={fetchQuote}
         >
           Send
         </button>

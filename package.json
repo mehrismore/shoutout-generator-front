@@ -15,7 +15,7 @@
   },
   "homepage": "https://mehrbeniss.github.io/shoutout-generator-front/",
   "scripts": {
-    "deploy": "gh_pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
