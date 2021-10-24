@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shoutout-generator-front/static/css/main.759eba87.chunk.css",
+    "main.js": "/shoutout-generator-front/static/js/main.94c5f2c7.chunk.js",
+    "main.js.map": "/shoutout-generator-front/static/js/main.94c5f2c7.chunk.js.map",
+    "runtime-main.js": "/shoutout-generator-front/static/js/runtime-main.0a16cc17.js",
+    "runtime-main.js.map": "/shoutout-generator-front/static/js/runtime-main.0a16cc17.js.map",
+    "static/js/2.e5d9b754.chunk.js": "/shoutout-generator-front/static/js/2.e5d9b754.chunk.js",
+    "static/js/2.e5d9b754.chunk.js.map": "/shoutout-generator-front/static/js/2.e5d9b754.chunk.js.map",
+    "index.html": "/shoutout-generator-front/index.html",
+    "static/css/main.759eba87.chunk.css.map": "/shoutout-generator-front/static/css/main.759eba87.chunk.css.map",
+    "static/js/2.e5d9b754.chunk.js.LICENSE.txt": "/shoutout-generator-front/static/js/2.e5d9b754.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a16cc17.js",
+    "static/js/2.e5d9b754.chunk.js",
+    "static/css/main.759eba87.chunk.css",
+    "static/js/main.94c5f2c7.chunk.js"
+  ]
+}
