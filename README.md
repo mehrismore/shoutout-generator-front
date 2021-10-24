@@ -29,4 +29,4 @@ If you want to use this API with the corresponding backend, please see the READM
 
 ## Resources Used
 
-- Built with lots of ❤️ and puppy cuddles🐶 using React.
+- Built with lots of ❤️ and puppy cuddles🐶 using Reactjs & TailwindCSS.
