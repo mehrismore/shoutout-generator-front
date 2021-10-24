@@ -14,6 +14,10 @@ export const Home = () => {
   const displayQuote = () => {
     let text = quote.text;
     let author = quote.author;
+
+    if (!text) {
+      return null;
+    }
     return (
       <div
         className="inline-flex
