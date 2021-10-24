@@ -15,8 +15,7 @@ export const Home = () => {
     let text = quote.text;
     let author = quote.author;
     return (
-      <button
-        type="button"
+      <div
         className="inline-flex
           items-center
           px-8
@@ -31,7 +30,7 @@ export const Home = () => {
           rounded-lg"
       >
         {text} {author ? `— ${author}` : null}
-      </button>
+      </div>
     );
   };
   console.log(quote.author);
@@ -54,10 +53,10 @@ export const Home = () => {
           text-5xl
           font-semibold
           bg-yellow-300
-          text-yellow-50
-          rounded-md
-          hover:bg-indigo-400
           text-purple-700
+          
+          rounded-md
+          hover:bg-indigo-400 text-yellow-50
           focus:outline-none
           focus:ring-2
           focus:ring-offset-2
